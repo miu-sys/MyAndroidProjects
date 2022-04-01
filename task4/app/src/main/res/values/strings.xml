@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">work4</string>
+    <string name="strTitle">中国家里蹲大学</string>
+    <string name="strStudent">学生</string>
+    <string name="strDepartment">院系</string>
+    <string name="strDepartmentInfo">信息工程学院</string>
+    <string name="strStudentInfo">2018级电子商务1班张三20181234</string>
+    <string name="strLocation">学校地址</string>
+    <string name="strLocationInfo">银河系猎户支臂</string>
+    <string name="strPhone">联系电话</string>
+    <string name="strPhoneNumber">028-1234561234</string>
+</resources>

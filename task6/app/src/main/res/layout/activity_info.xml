@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            android:src="@mipmap/image_next">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_of_person"
+            android:paddingLeft="60dp"
+            android:textSize="22sp"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_head_portrait"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginVertical="30dp"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+        <TextView
+            android:text="姓名"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_name"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="职称"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_job"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="年龄"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_age"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="性别"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_sex"
+            style="@style/ms_text_info_content"/>
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="电话号码"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_phone_number"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+    </GridLayout>
+
+</LinearLayout>

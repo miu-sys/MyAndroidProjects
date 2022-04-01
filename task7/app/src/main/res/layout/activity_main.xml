@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="查询页面"
+        android:textColor="@color/indigo"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_hintUser"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="bottom"
+        android:text="请选择查询方式："
+        android:textSize="12dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_selectSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_useName"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="姓名"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_usePhoneNumber"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="手机"
+            android:textSize="12sp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/et_userInput"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:hint="请输入"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="搜索"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="数据列表如下："/>
+    <ListView
+        android:id="@+id/lv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

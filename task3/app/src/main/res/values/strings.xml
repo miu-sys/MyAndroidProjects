@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">task3</string>
+    <string name="strTitleA">页面A</string>
+    <string name="strTitleB">页面B</string>
+    <string name="strTitleC">页面C</string>
+    <string name="strNumberX">X值为：</string>
+    <string name="strNumberY">Y值为：</string>
+    <string name="strSumAAndB">X+Y值为：</string>
+    <string name="strBtnX">点击输入X</string>
+    <string name="strBtnY">点击输入Y</string>
+    <string name="strBtnSum">计算X+Y的值</string>
+    <string name="strResult">X+Y的结果为：</string>
+    <string name="strInputXHint">请输入数字X：</string>
+    <string name="strInputYHint">请输入数字Y：</string>
+    <string name="strBtnHint">提交</string>
+</resources>

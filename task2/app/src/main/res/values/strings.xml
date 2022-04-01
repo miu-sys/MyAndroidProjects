@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">task2</string>
+    <string name="strTitleA">页面A</string>
+    <string name="strTitleB">页面B</string>
+    <string name="strTitleC">页面C</string>
+    <string name="strInputXHint">请输入数字X：</string>
+    <string name="strInputYHint">请输入数字Y：</string>
+    <string name="strBtnHint">提交</string>
+    <string name="strResult">X+Y的结果为：</string>
+</resources>

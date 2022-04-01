@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/paleGoldenrod"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="王小明"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/item_phonenumber"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="17312340001"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/item_address"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="成都市"
+        android:textSize="12sp" />
+</LinearLayout>

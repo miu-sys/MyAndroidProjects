@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">第五次作业</string>
+    <string name="str_app_title">注    册</string>
+    <string name="str_user_name">用户名</string>
+    <string name="str_user_name_hint">请输入用户名</string>
+    <string name="str_paw">密码</string>
+    <string name="str_paw_hint">请输入密码</string>
+    <string name="str_paw_again">确认密码</string>
+    <string name="str_paw_hint_again">请再次输入密码</string>
+    <string name="str_sex">性别</string>
+    <string name="str_select_sex">请选择您的性别</string>
+    <string name="str_select_interest">请选择您的兴趣</string>
+    <string name="str_interest">兴趣</string>
+    <string name="str_interest_1">篮球</string>
+    <string name="str_interest_2">足球</string>
+    <string name="str_interest_3">看电影</string>
+    <string name="str_interest_4">旅游</string>
+    <string name="str_individual_resume">个人简介</string>
+    <string name="str_submit">提    交</string>
+    <string name="str_reset">重    置</string>
+    <string name="str_info_title">注册信息</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aliceBlue"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:text="@string/str_info_title"
+        style="@style/ms_text_title" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+        <TextView
+            android:text="@string/str_user_name"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text_username"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="@string/str_paw"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text_paw"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="@string/str_sex"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text_sex"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="@string/str_interest"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text_interest"
+            style="@style/ms_text_info_content"/>
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+        <TextView
+            android:text="@string/str_individual_resume"
+            style="@style/ms_text_info_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text_individual_resume"
+            style="@style/ms_text_info_content" />
+
+        <View
+            android:layout_columnSpan="2"
+            style="@style/ms_line">
+        </View>
+
+    </GridLayout>
+</LinearLayout>

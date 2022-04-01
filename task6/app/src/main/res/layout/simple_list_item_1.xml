@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/item_img"
+        android:text="张一三"
+        android:textColor="@color/darkSalmon"
+        android:textSize="18sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_age_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/item_name"
+        android:text="年龄"
+        android:textColor="@color/black"
+        android:textSize="12sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_age_title"
+        android:layout_toRightOf="@+id/item_age_title"
+        android:layout_marginLeft="5dp"
+        android:text="18"
+        android:textColor="@color/black"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/item_sex_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_age"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/item_age"
+        android:text="性别"
+        android:textColor="@color/black"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/item_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_sex_title"
+        android:layout_alignBottom="@+id/item_sex_title"
+        android:layout_marginLeft="5dp"
+        android:text="女"
+        android:textColor="@color/black"
+        android:textSize="12sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/item_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="总经理"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </TextView>
+
+</RelativeLayout>

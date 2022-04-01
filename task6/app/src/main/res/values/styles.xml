@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ms_text_info_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ms_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/dimGray</item>
+    </style>
+</resources>

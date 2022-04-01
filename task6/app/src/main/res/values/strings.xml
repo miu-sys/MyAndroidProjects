@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">第六次作业</string>
+    <string name="str_info_title">信息页</string>
+    <string name="info_of_person">信息详情</string>
+</resources>

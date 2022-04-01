@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".pageAActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/strTitleA"
+        android:textColor="@color/indigo"
+        android:textSize="32sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/strNumberX"
+            android:textSize="26sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textX"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="26sp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInputX"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/strBtnX"
+        android:textSize="26sp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/strNumberY"
+            android:textSize="26sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="26sp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInputY"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/strBtnY"
+        android:textSize="26sp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/strSumAAndB"
+            android:textSize="26sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textSum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="26sp">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInputSum"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/strBtnSum"
+        android:textSize="26sp">
+    </Button>
+
+
+</LinearLayout>
