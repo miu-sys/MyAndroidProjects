@@ -90,8 +90,7 @@ activity_main.xml
 
 >内容
 
-
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401120915.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401120915.png" height="500"/>
 
 
 ## task5
@@ -115,7 +114,7 @@ activity_main.xml
 页面B
 - 显示A传过来的值
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401123841.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401123841.png" height="500"/>
 
 ## task6
 
@@ -134,9 +133,9 @@ activity_main.xml
 页面B
 * 显示该人员的更为详细的信息
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401124654.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401124654.png" height="500"/>
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401124727.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401124727.png" height="500"/>
 
 ## task7
 
@@ -162,9 +161,9 @@ activity_main.xml
 
 * 页面B，实现用户的添加、修改
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401125513.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401125513.png" height="500"/>
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401125542.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401125542.png" height="500"/>
 
 
 ## task8
@@ -191,4 +190,4 @@ activity_main.xml
 
 >内容 简单的启动页、登录页
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401131520.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401131520.png" height="500"/>
