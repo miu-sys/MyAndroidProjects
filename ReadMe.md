@@ -34,7 +34,7 @@
 2. 页面A内有数字Y（其中Y的值由页面C给定）
 3. 页面A点击计算按钮，得到X+Y的结果
 
-<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401115203.png" height="500"/>
+<img src="https://cdn.jsdelivr.net/gh/miu-sys/myImageBed@img1//20220401android/20220401115203.png" height="500"/>
 
 
 ## task4
