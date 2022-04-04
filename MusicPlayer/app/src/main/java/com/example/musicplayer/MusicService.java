@@ -11,18 +11,22 @@ public class MusicService extends Service {
 
     public MediaPlayer mediaPlayer;
 
+    @Override
+    public void onCreate() {
+        mediaPlayer = new MediaPlayer();
+        mediaPlayer=MediaPlayer.create(getApplicationContext(),R.raw.ericaceae);//设置音乐播放路径
+        super.onCreate();
+    }
+
     //自定义的类，用于向Activity提供方法的接口
     class MyBinder extends Binder {
         //播放音乐
         public void playMusic() {
-            mediaPlayer=MediaPlayer.create(getApplicationContext(),R.raw.qianqiu);//设置音乐播放路径
-            if(getCurrentProgress()==0){//如果没有播放进度
-                mediaPlayer.start();
-            }else{//如果是暂停后播放，跳转到当前播放进度
+            if(getCurrentProgress()!=0){//如果是暂停后播放，跳转到当前播放进度
                 int position = getCurrentProgress();//获取当前播放进度
                 mediaPlayer.seekTo(position);//跳转到当前播放位置
-                mediaPlayer.start();//开始播放
             }
+            mediaPlayer.start();
         }
 
         //暂停播放
@@ -50,11 +54,6 @@ public class MusicService extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         return new MyBinder();
-    }
-
-    @Override
-    public void onCreate() {
-        super.onCreate();
     }
 
     @Override
